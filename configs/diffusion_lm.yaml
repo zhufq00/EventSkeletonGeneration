@@ -1,0 +1,46 @@
+# Preprocess
+dataset : suicide_ied # suicide_ied wiki_mass_car_bombings wiki_ied_bombings
+model_config : './configs/model.json'
+test_esm_while_train : False
+res_dir : './results'
+filemode : 'w'
+
+# Eval
+eval: False
+checkpoint : ''
+
+# Train
+annotation : ''
+no_cuda: False
+gpu_id : 0
+seed: 2023
+save_interval: 10
+test_interval : 10
+use_mlp : True
+use_lap : False
+use_random : False
+random_num : 9
+stochastic : True
+node_stochastic : False
+use_edge_loss : True
+use_tan_proj : False 
+lm_loss: False  
+edge_loop : False 
+# Diffusion Model
+epoch: 100
+batch_size: 8
+lr: 1.0e-4
+grad_clip : 1.0
+diff_step : 100
+k: 1
+thre : 0.5
+pos_enc_dim : 8
+
+gen_max_n : 50
+max_n : 50 # 
+num_vertex_type : 70 # 46 69
+START_TYPE: 0
+END_TYPE : 1
+PAD_TYPE : 69
+decode_num : 100
+
