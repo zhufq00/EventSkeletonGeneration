@@ -19,15 +19,8 @@ Even though we use the method of averaging over five runs, the training results 
 ```
 @inproceedings{zhu-etal-2023-diffusion,
     title = "A Diffusion Model for Event Skeleton Generation",
-    author = "Zhu, Fangqi  and
-      Zhang, Lin  and
-      Gao, Jun  and
-      Qin, Bing  and
-      Xu, Ruifeng  and
-      Yang, Haiqin",
-    editor = "Rogers, Anna  and
-      Boyd-Graber, Jordan  and
-      Okazaki, Naoaki",
+    author = "Zhu, Fangqi and Zhang, Lin and Gao, Jun and Qin, Bing and Xu, Ruifeng and Yang, Haiqin",
+    editor = "Rogers, Anna and Boyd-Graber, Jordan and Okazaki, Naoaki",
     booktitle = "Findings of the Association for Computational Linguistics: ACL 2023",
     month = jul,
     year = "2023",
