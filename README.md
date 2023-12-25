@@ -14,3 +14,27 @@
 
 ### Note
 Even though we use the method of averaging over five runs, the training results are still quite unstable. Future work may consider improving evaluation criteria to enhance the stability of evaluation.
+
+## Reference
+```
+@inproceedings{zhu-etal-2023-diffusion,
+    title = "A Diffusion Model for Event Skeleton Generation",
+    author = "Zhu, Fangqi  and
+      Zhang, Lin  and
+      Gao, Jun  and
+      Qin, Bing  and
+      Xu, Ruifeng  and
+      Yang, Haiqin",
+    editor = "Rogers, Anna  and
+      Boyd-Graber, Jordan  and
+      Okazaki, Naoaki",
+    booktitle = "Findings of the Association for Computational Linguistics: ACL 2023",
+    month = jul,
+    year = "2023",
+    address = "Toronto, Canada",
+    publisher = "Association for Computational Linguistics",
+    url = "https://aclanthology.org/2023.findings-acl.800",
+    doi = "10.18653/v1/2023.findings-acl.800",
+    pages = "12630--12641",
+}
+```
