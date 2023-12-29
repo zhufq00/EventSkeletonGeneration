@@ -15,6 +15,8 @@
 ### Note
 Even though we use the method of averaging over five runs, the training results are still quite unstable. Future work may consider improving evaluation criteria to enhance the stability of evaluation.
 
+An intriguing analogy is that when you average the faces of the general population, you typically end up with an exceptionally beautiful face. In a similar vein, a well-constructed event schema graph may bear a striking resemblance to various individual event instance graphs.
+
 ## Reference
 ```
 @inproceedings{zhu-etal-2023-diffusion,
