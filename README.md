@@ -3,8 +3,13 @@
 ## Experiment code and data for: "A Diffusion Model for Event Skeleton Generation"
 
 ### Step 1: Prepare the Dataset
+
+Option 1: Download data from the provided [Google drive link](https://drive.google.com/file/d/1olcrCKgsHJSy06DlHRMPnjAtzdd0UbkE/view?usp=sharing).
+
+Option 2: Process the data yourself
+
 - Download the raw data from [temporal-graph-schema](https://github.com/limanling/temporal-graph-schema).
-- Process the data according to the instructions found in [Event Schema Induction with Double Graph Autoencoders](https://aclanthology.org/attachments/2022.naacl-main.147.software.zip). You will obtain an aligned dataset.
+- Process the data according to the instructions found in [Event Schema Induction with Double Graph Autoencoders](https://aclanthology.org/attachments/2022.naacl-main.147.software.zip).
 
 ### Step 2: Train the Model
 - Execute the `run.sh` script to train the model. Training outcomes are stored in `./*.log` files. The `run.sh` script will perform training five times for each dataset to compute the average results.
